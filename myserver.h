@@ -16,7 +16,7 @@ public:
 
 public slots:
     void startServer();
-    void incomingConnection(int socketDescriptor);
+    void incomingConnection(qintptr socketDescriptor);
     void sockReady();
     void sockDisc();
 };
