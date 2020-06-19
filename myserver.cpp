@@ -16,7 +16,7 @@ void myserver::startServer()
     }
 }
 
-void myserver::incomingConnection(int socketDescriptor)
+void myserver::incomingConnection(qintptr socketDescriptor)
 {
     socket = new QTcpSocket(this);
     socket->setSocketDescriptor(socketDescriptor);
